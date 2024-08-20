@@ -97,32 +97,6 @@
 %debug page outer frames
 %\usepackage{showframe}
 
-
-% job listing environments
-\newenvironment{jobshort}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    }
-    {
-    }
-
-\newenvironment{joblong}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
-    }
-    {
-    \end{itemize}
-    \end{minipage}    
-    }
-
-
-
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
 %----------------------------------------------------------------------------------------
@@ -136,82 +110,108 @@
 %----------------------------------------------------------------------------------------
 
 % \begin{tabularx}{\linewidth}{ @{}X X@{} }
-% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
-% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \huge{Paridhi Agarwal}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ paridhi3 \ | \
 % \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{\textbf{Paridhi Agarwal}} \\[7.5pt]
+{\raisebox{-0.05\height}\faEnvelope \ paridhiagarwal.official@gmail.com} \ $|$ \ 
+{\raisebox{-0.05\height}\faMobile \ +91-9810911677} \\
+
+% \vspace{0.5pt}
+
+\href{https://github.com/paridhi3}{\raisebox{-0.05\height}\faGithub\ GitHub} \ $|$ \ 
+\href{https://www.linkedin.com/in/paridhi3/}{\raisebox{-0.05\height}\faLinkedin\ LinkedIn} \\ 
 \end{tabularx}
+
+%Interests/ Keywords/ Summary
+% \section{Summary}
+A dedicated and aspiring software engineer, seeking opportunities in a tech-focused organization for technical and personal advancement.
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE SECTIONS
 %----------------------------------------------------------------------------------------
 
-%Interests/ Keywords/ Summary
-\section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
-
 %Experience
-\section{Work Experience}
-
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
-
-
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
-\end{joblong}
-  
-%Projects
-\section{Projects}
+\section{\textbf{Experience}}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+\textbf{\underline{Project Intern}} & \hfill Jul 2024 \\[3.75pt]
+\textbf{iNeuron.ai | Remote} \\
+\multicolumn{2}{@{}X@{}}
+{Built and deployed end-to-end ML projects into scalable cloud systems, creating optimized algorithms.}
 \end{tabularx}
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-\section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
-
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
-
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{\underline{Research Intern}} & \hfill May 2023 - June 2023 \\[3.75pt]
+\textbf{CSIR - NPL | New Delhi, India} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}
+{Utilized advanced machine learning techniques, including deep learning and LSTM networks, to develop accurate predictions for UT1-UTC and LOD. Applied the Prophet framework to capture intricate temporal dependencies and improve forecasting accuracy. \href{https://ieeexplore.ieee.org/document/10463236}{\textbf{(Research paper)}}} \\
 \end{tabularx}
 
+
+% \vspace{0pt}
+
 %----------------------------------------------------------------------------------------
-%	PUBLICATIONS
+% PROJECT SECTION
 %----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
+
+%Projects
+\section{\textbf{Projects}}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Phishing Domain Detection (July-Aug 2024)} & \href{https://github.com/paridhi3/Phishing-Domain-Detection}{GitHub} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{An end-to-end cybersecurity system that detects phishing URLs and domains with 97\% accuracy, utilizing feature\_importances\_ and a Random Forest Classifier.} \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Predict House Prices in India (July 2024)} & \hfill \href{https://github.com/paridhi3/Predict-House-Prices-in-India}{GitHub} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Analysed India house data using Pandas, Seaborn, Matplotlib. Implemented project in a modular fashion using MLFlow and DVC. Used MySQL for database. Finally, made predictions using ML.}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Ask2SQL (June 2024)} & \hfill
+\href{https://github.com/paridhi3/Ask2SQL.git}{GitHub} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Streamlit web application that allows you to generate instant SQL queries by asking simple questions using Google Gemini Pro.}  \\
+\end{tabularx}
+
+
+% \vspace{0pt}
+
+\vspace{0pt}
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
-\section{Skills}
+\section{\textbf{Skills/Tools}}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+\textbf{Programming Languages}  &  \normalsize{C, C++, Python}\\
+\textbf{DS/ML/AI} &  \normalsize{Python, Data Viz, Supervised and Unsupervised Learning, ANN, LSTM, EDA, Feature Engg, etc.}\\
+\textbf{Python Frameworks}  &  \normalsize{Sklearn, Tensorflow, Keras, Numpy, Pandas, Seaborn, MatPlotLib etc.}\\  
+\textbf{MLOps}  &  \normalsize{GitHub Actions (CI/CD), MLflow, DVC}\\
+\textbf{Backend}  &  \normalsize{Flask}\\    
+\textbf{Cloud Deployment/Containers}  &  \normalsize{AWS Elastic Beanstalk, Git, Docker}\\  
 \end{tabularx}
 
-\vfill
-\center{\footnotesize Last updated: \today}
+\vspace{0pt}
 
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{\textbf{Education}}
+
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{B.Tech(CSE) with Spec. Hons. (AI/ML)} & \hfill{Amity University, Noida} & \hfill{2020-2024} \\
+    \multicolumn{3}{@{}l@{}}{CGPA: 8.49/10.00} \\
+
+    \textbf{Senior Secondary Education:} & \hfill{Mayoor School, Noida} & \hfill{2015-2019} \\
+    \multicolumn{3}{@{}l@{}}{● Passed with 93.2\% through 12th CBSE board} \\
+    \multicolumn{3}{@{}l@{}}{● Passed with 10 CGPA through 10th CBSE board} \\
+\end{tabularx}
+
+
+
+\vfill
 \end{document}
